@@ -26,13 +26,6 @@ projects[] = token
 projects[] = views
 projects[] = wysiwyg
 
-;profile
-
-projects[rtvcbase][type] = "profile"
-projects[rtvcbase][download][type] = "git"
-projects[rtvcbase][download][url] = "https://github.com/kaitangroup/rtvcbase.git"
-projects[rtvcbase][download][branch] = "master"
-
 ; Translations
 translations[] = es
 
