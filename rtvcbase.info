@@ -1,0 +1,65 @@
+name = contactodirecto
+description = Perfil de instalación Contacto Directo
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = blog
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contact
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = help
+dependencies[] = image
+dependencies[] = l10n_update
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = taxonomy
+dependencies[] = toolbar
+
+; Contrib
+dependencies[] = bulk_export
+dependencies[] = calendar
+dependencies[] = ctools
+dependencies[] = ctools_custom_content
+dependencies[] = ctools_access_ruleset
+dependencies[] = date_popup
+dependencies[] = date_repeat_field
+dependencies[] = date_tools
+dependencies[] = devel_generate
+dependencies[] = devel_node_access
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = entitycache
+dependencies[] = features
+dependencies[] = googleanalytics
+dependencies[] = imce_wysiwyg
+dependencies[] = libraries
+dependencies[] = list
+dependencies[] = node_reference
+dependencies[] = pathauto
+dependencies[] = path_breadcrumbs_ui
+dependencies[] = page_manager
+dependencies[] = storage
+dependencies[] = storage_core_bridge
+dependencies[] = storage_audit
+dependencies[] = storage_audit_test
+dependencies[] = stylizer
+dependencies[] = token
+dependencies[] = user_reference
+dependencies[] = views_ui
+dependencies[] = views_content
+dependencies[] = wysiwyg
+
+;files[] = rtvcbase.profile
