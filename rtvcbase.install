@@ -6,8 +6,6 @@
  */
 function rtvcbase_install() {
 
-  $details = rtvcbase_profile_details();
-
   // Default theme
   $variables = array(
     'site_mail'       => 'maciekrb@gmail.com',

@@ -1,6 +1,5 @@
 core = 7.x
 api = 2
-projects[drupal][type] = core
 
 ; Contrib Modules
 projects[] = calendar
@@ -25,6 +24,8 @@ projects[] = storage_api
 projects[] = token
 projects[] = views
 projects[] = wysiwyg
+
+
 
 ; Translations
 translations[] = es

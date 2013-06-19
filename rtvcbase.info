@@ -1,5 +1,6 @@
-name = contactodirecto
+name = Contactodirecto
 description = Perfil de instalación Contacto Directo
+version = VERSION
 core = 7.x
 
 ; Core
@@ -62,4 +63,3 @@ dependencies[] = views_ui
 dependencies[] = views_content
 dependencies[] = wysiwyg
 
-;files[] = rtvcbase.profile
