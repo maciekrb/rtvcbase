@@ -17,7 +17,6 @@ projects[] = imce_wysiwyg
 projects[] = l10n_client
 projects[] = libraries
 projects[] = pathauto
-projects[] = path_breadcrumbs
 projects[path_breadcrumbs][l10n_path] = "http://ftp.drupal.org/files/translations/7.x/path_breadcrumbs/path_breadcrumbs-7.x-3.0-beta2.es.po"
 projects[] = references
 projects[] = storage_api
