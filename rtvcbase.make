@@ -15,6 +15,7 @@ projects[] = google_analytics
 projects[] = imce
 projects[] = imce_wysiwyg
 projects[] = l10n_client
+projects[l10n_update][version] = 1.x-dev
 projects[] = libraries
 projects[] = pathauto
 projects[path_breadcrumbs][l10n_path] = "http://ftp.drupal.org/files/translations/7.x/path_breadcrumbs/path_breadcrumbs-7.x-3.0-beta2.es.po"
