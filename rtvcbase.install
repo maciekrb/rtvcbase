@@ -6,28 +6,28 @@
  */
 function rtvcbase_install() {
 
-  // Default theme
-  $variables = array(
-    'site_mail'       => 'maciekrb@gmail.com',
-    'site_name'       => 'cdirecto.localhost',                                          
-    'site_slogan'     => 'Test Slogan here',
-    'site_default_country' => $details['site_default_country'],
-    'date_default_timezone' => 'America/Bogota',
-    'date_first_day' => 1,
-    'date_format_short' => $details['date_format_short'],
-    'date_format_medium' => $details['date_format_medium'],
-    'date_format_long' => $details['date_format_long'],
-    //'theme_default'   => 'contacto_blue',
-    'user_register'   => 0,
-    'maintenance_mode_message' => 'Este sitio está en mantenimiento en estos momentos. Pronto estaremos de regreso. Gracias por su paciencia.',
-    // Google Analytics
-    'googleanalytics_account' => 'UA-something-here', // This should come from env-vars
-    'googleanalytics_js_scope' => 'header',
-    // Pathauto
-    'pathauto_reduce_ascii' => $details['pathauto_reduce_ascii'],
-    'pathauto_transliterate' => $details['pathauto_transliterate'],
-    //'site_frontpage'  => 'node/1'
-  );
+//  // Default theme
+//  $variables = array(
+//    'site_mail'       => 'maciekrb@gmail.com',
+//    'site_name'       => 'cdirecto.localhost',                                          
+//    'site_slogan'     => 'Test Slogan here',
+//    'site_default_country' => $details['site_default_country'],
+//    'date_default_timezone' => 'America/Bogota',
+//    'date_first_day' => 1,
+//    'date_format_short' => $details['date_format_short'],
+//    'date_format_medium' => $details['date_format_medium'],
+//    'date_format_long' => $details['date_format_long'],
+//    //'theme_default'   => 'contacto_blue',
+//    'user_register'   => 0,
+//    'maintenance_mode_message' => 'Este sitio está en mantenimiento en estos momentos. Pronto estaremos de regreso. Gracias por su paciencia.',
+//    // Google Analytics
+//    'googleanalytics_account' => 'UA-something-here', // This should come from env-vars
+//    'googleanalytics_js_scope' => 'header',
+//    // Pathauto
+//    'pathauto_reduce_ascii' => $details['pathauto_reduce_ascii'],
+//    'pathauto_transliterate' => $details['pathauto_transliterate'],
+//    //'site_frontpage'  => 'node/1'
+//  );
   //$variables['menu_secondary_links_source'] = 'primary-links';
 
   //Node paths
@@ -37,9 +37,9 @@ function rtvcbase_install() {
 
   include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
   standard_install();
-foreach($variables as $name => $value){
-    variable_set($name, $value);
-  }
+//foreach($variables as $name => $value){
+//    variable_set($name, $value);
+//  }
 
 }
 ?>
